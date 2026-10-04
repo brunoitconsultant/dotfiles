@@ -12,11 +12,10 @@ ln -sf ~/dotfiles/bashrc ~/.bashrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
 
-echo "Workspace successfully restored!"
 echo "Setting up development environment..."
-
-chmod +x ./ide.sh
 if ! grep -q "alias ide=" ~/dotfiles/bashrc; then
     echo "alias ide='~/dotfiles/ide.sh'" >> ~/dotfiles/bashrc
     echo "Global shortcut 'ide' added to your dotfiles profile!"
 fi
+
+echo "Workspace successfully restored!"
