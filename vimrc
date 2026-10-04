@@ -14,3 +14,5 @@ highlight EndOfBuffer ctermfg=black ctermbg=black
 
 " Automatically start in Insert Mode when opening any file
 autocmd BufReadPost,BufNewFile * startinsert
+
+set shortmess+=I
