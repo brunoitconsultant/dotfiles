@@ -12,7 +12,6 @@ ln -sf ~/dotfiles/bashrc ~/.bashrc
 ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
 
-# Cleanly jump back to your home directory at the end of the installation
 cd ~
 
 echo "Workspace successfully restored!"
