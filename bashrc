@@ -42,3 +42,4 @@ export PROMPT_COMMAND=set_bash_prompt
 alias ls="echo && command ls -F --color=always --group-directories-first"
 alias ll="echo && command ls -lhF --color=always --group-directories-first"
 alias la="echo && command ls -lahF --color=always --group-directories-first"
+alias ide='~/dotfiles/ide.sh'

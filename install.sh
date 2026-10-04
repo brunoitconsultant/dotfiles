@@ -20,4 +20,3 @@ if ! grep -q "alias ide=" ~/dotfiles/bashrc; then
     echo "alias ide='~/dotfiles/ide.sh'" >> ~/dotfiles/bashrc
     echo "Global shortcut 'ide' added to your dotfiles profile!"
 fi
-source ~/.bashrc
