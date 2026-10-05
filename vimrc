@@ -16,3 +16,6 @@ highlight EndOfBuffer ctermfg=black ctermbg=black
 autocmd BufReadPost,BufNewFile * startinsert
 
 set shortmess+=I
+
+set directory=$HOME/.vim/swap//
+set backupdir=$HOME/.vim/backup//
