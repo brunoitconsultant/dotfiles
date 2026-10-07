@@ -1,4 +1,4 @@
-###  RUN IN POWERSHELL:
+##  RUN IN POWERSHELL:
 ### A. RESET YOUR LINUX DISTRO
 wsl --unregister Ubuntu ; wsl --install -d Ubuntu
 
