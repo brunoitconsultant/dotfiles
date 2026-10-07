@@ -1,4 +1,5 @@
 source /usr/lib/git-core/git-sh-prompt
+export KUBECONFIG="/mnt/c/Users/ferreirb_p/OneDrive - YVR/Desktop/TAM-DB/.profile/kubeconfig/tamdb-dev.yaml"
 
 # Configure git-sh-prompt flags to enable indicators (*, %, =)
 export GIT_PS1_SHOWDIRTYSTATE=1      # Shows '*' for unstaged modifications
