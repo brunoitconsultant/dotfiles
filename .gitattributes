@@ -1,0 +1,5 @@
+* text=auto
+bashrc text eol=lf
+vimrc text eol=lf
+tmux.conf text eol=lf
+ide.sh text eol=lf
