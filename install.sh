@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "1/4: Installing premium workspace tools..."
-sudo apt update && sudo apt install -y tmux eza build-essential clang vim git
+sudo apt update && sudo apt install -y tmux eza build-essential clang vim git xdg-utils
 
 echo "2/4: Configuring global Git identity settings..."
 git config --global user.email "bruno.itconsultant@gmail.com"
