@@ -55,3 +55,4 @@ alias ll="echo && command ls -lhF --color=always --group-directories-first"
 alias la="echo && command ls -lahF --color=always --group-directories-first"
 alias ide='~/dotfiles/ide.sh'
 
+PROMPT_DIRTRIM=3
