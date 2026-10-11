@@ -17,5 +17,11 @@ autocmd BufReadPost,BufNewFile * startinsert
 
 set shortmess+=I
 
+"                    Standard 4-character indentation configurations
+set tabstop=4      " Renders a hard tab (\t) character as 4 spaces wide
+set shiftwidth=4   " Indents by 4 spaces when using the > or < commands
+set softtabstop=4  " Makes the Backspace key remove 4 spaces at once like a tab
+set expandtab      " Converts all hit tab keystrokes directly into actual spaces
+
 set directory=$HOME/.vim/swap//
 set backupdir=$HOME/.vim/backup//
