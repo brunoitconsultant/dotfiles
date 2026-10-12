@@ -23,5 +23,15 @@ set shiftwidth=4   " Indents by 4 spaces when using the > or < commands
 set softtabstop=4  " Makes the Backspace key remove 4 spaces at once like a tab
 set expandtab      " Converts all hit tab keystrokes directly into actual spaces
 
+" Automatically create backup and swap directories if they don't exist
+if !isdirectory(expand('~/.vim/swap'))
+    call mkdir(expand('~/.vim/swap'), 'p')
+endif
+
+if !isdirectory(expand('~/.vim/backup'))
+    call mkdir(expand('~/.vim/backup'), 'p')
+endif
+
 set directory=$HOME/.vim/swap//
 set backupdir=$HOME/.vim/backup//
+
