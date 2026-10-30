@@ -1,3 +1,4 @@
+cd ~
 source /usr/lib/git-core/git-sh-prompt
 export KUBECONFIG="/mnt/c/Users/ferreirb_p/OneDrive - YVR/Desktop/TAM-DB/.profile/kubeconfig/tamdb-dev.yaml"
 
