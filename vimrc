@@ -35,3 +35,5 @@ endif
 set directory=$HOME/.vim/swap//
 set backupdir=$HOME/.vim/backup//
 
+" highlight the current cursor line
+set cursorline | highlight CursorLine cterm=NONE ctermbg=237 guibg=#3a3a3a
