@@ -41,5 +41,6 @@ set cursorline | highlight CursorLine cterm=NONE ctermbg=237 guibg=#3a3a3a
 set title
 set titlestring=%t   " %t shows just the filename (use %f for relative path)
 
-set foldcolumn=2
-highlight FoldColumn ctermbg=NONE guibg=NONE
+" usefull If I dont want linenumbers and want to see some padding in the start of the line
+" set foldcolumn=2
+" highlight FoldColumn ctermbg=NONE guibg=NONE
