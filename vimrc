@@ -2,8 +2,8 @@
 syntax on
 
 " Add premium line numbers
-set number
-set relativenumber
+" set number
+" set relativenumber
 
 " Clean up the screen space
 set showcmd
@@ -40,3 +40,6 @@ set cursorline | highlight CursorLine cterm=NONE ctermbg=237 guibg=#3a3a3a
 
 set title
 set titlestring=%t   " %t shows just the filename (use %f for relative path)
+
+set foldcolumn=2
+highlight FoldColumn ctermbg=NONE guibg=NONE
