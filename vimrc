@@ -40,3 +40,5 @@ set cursorline | highlight CursorLine cterm=NONE ctermbg=237 guibg=#3a3a3a
 
 set title
 set titlestring=%t   " %t shows just the filename (use %f for relative path)
+
+set clipboard=unnamedplus	" allows using normal y and p across all your tmux windows
