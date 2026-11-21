@@ -44,3 +44,29 @@ set titlestring=%t   " %t shows just the filename (use %f for relative path)
 " usefull If I dont want linenumbers and want to see some padding in the start of the line
 " set foldcolumn=2
 " highlight FoldColumn ctermbg=NONE guibg=NONE
+
+
+
+syntax on
+set t_ut=
+
+function! ClearBackgrounds()
+  let groups = [
+        \ 'Normal', 'NonText', 'LineNr', 'Folded', 'EndOfBuffer',
+        \ 'StatusLine', 'StatusLineNC', 'VertSplit', 'SignColumn',
+        \ 'Comment', 'Statement', 'Identifier', 'Constant', 'Special',
+        \ 'PreProc', 'Type', 'Underlined', 'Title', 'Directory',
+        \ 'netrwPlain', 'netrwDir', 'netrwClassify', 'netrwTreeBar'
+        \ ]
+  for group in groups
+    if hlexists(group)
+      execute 'hi ' . group . ' ctermbg=NONE guibg=NONE'
+    endif
+  endfor
+endfunction
+
+augroup TransparentBackground
+  autocmd!
+  autocmd VimEnter,ColorScheme,BufWinEnter,FileType * call ClearBackgrounds()
+augroup END
+
